@@ -1,0 +1,872 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class RecompensaService | Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class RecompensaService | Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DaveNetDeveloper/WebSystem/new/develop/apiSpec/new?filename=Application_Services_RecompensaService.md&amp;value=---%0Auid%3A%20Application.Services.RecompensaService%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Documentation">
+            Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Application.Services.RecompensaService">
+
+
+
+  <h1 id="Application_Services_RecompensaService" data-uid="Application.Services.RecompensaService" class="text-break">
+Class RecompensaService  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Application/Services/RecompensaService.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Application.html">Application</a>.<a class="xref" href="Application.Services.html">Services</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Application.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class RecompensaService : IRecompensaService, IService&lt;Recompensa, int&gt;</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">RecompensaService</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="Application.Interfaces.Services.IRecompensaService.html">IRecompensaService</a></div>
+      <div><a class="xref" href="Application.Interfaces.Services.IService-2.html">IService</a>&lt;<a class="xref" href="Domain.Entities.Recompensa.html">Recompensa</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Application_Services_RecompensaService__ctor_" data-uid="Application.Services.RecompensaService.#ctor*"></a>
+
+  <h3 id="Application_Services_RecompensaService__ctor_Application_Interfaces_Repositories_IRecompensaRepository_Application_Interfaces_Repositories_IUsuarioRecompensasRepository_Application_Interfaces_Repositories_ITipoRecompensasRepository_" data-uid="Application.Services.RecompensaService.#ctor(Application.Interfaces.Repositories.IRecompensaRepository,Application.Interfaces.Repositories.IUsuarioRecompensasRepository,Application.Interfaces.Repositories.ITipoRecompensasRepository)">
+  RecompensaService(IRecompensaRepository, IUsuarioRecompensasRepository, ITipoRecompensasRepository)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Application/Services/RecompensaService.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RecompensaService(IRecompensaRepository repo, IUsuarioRecompensasRepository repoUsuarioRecompensas, ITipoRecompensasRepository repoTipoRecompensas)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>repo</code> <a class="xref" href="Application.Interfaces.Repositories.IRecompensaRepository.html">IRecompensaRepository</a></dt>
+    <dd></dd>
+    <dt><code>repoUsuarioRecompensas</code> <a class="xref" href="Application.Interfaces.Repositories.IUsuarioRecompensasRepository.html">IUsuarioRecompensasRepository</a></dt>
+    <dd></dd>
+    <dt><code>repoTipoRecompensas</code> <a class="xref" href="Application.Interfaces.Repositories.ITipoRecompensasRepository.html">ITipoRecompensasRepository</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Application_Services_RecompensaService_AddAsync_" data-uid="Application.Services.RecompensaService.AddAsync*"></a>
+
+  <h3 id="Application_Services_RecompensaService_AddAsync_Domain_Entities_Recompensa_" data-uid="Application.Services.RecompensaService.AddAsync(Domain.Entities.Recompensa)">
+  AddAsync(Recompensa)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Application/Services/RecompensaService.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Crea una nueva entidad</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; AddAsync(Recompensa recompensa)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>recompensa</code> <a class="xref" href="Domain.Entities.Recompensa.html">Recompensa</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Application_Services_RecompensaService_AddTipoRecompensa_" data-uid="Application.Services.RecompensaService.AddTipoRecompensa*"></a>
+
+  <h3 id="Application_Services_RecompensaService_AddTipoRecompensa_Domain_Entities_TipoRecompensa_" data-uid="Application.Services.RecompensaService.AddTipoRecompensa(Domain.Entities.TipoRecompensa)">
+  AddTipoRecompensa(TipoRecompensa)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Application/Services/RecompensaService.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; AddTipoRecompensa(TipoRecompensa tipoRecompensa)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tipoRecompensa</code> <a class="xref" href="Domain.Entities.TipoRecompensa.html">TipoRecompensa</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Application_Services_RecompensaService_AddUsuarioRecompensaAsync_" data-uid="Application.Services.RecompensaService.AddUsuarioRecompensaAsync*"></a>
+
+  <h3 id="Application_Services_RecompensaService_AddUsuarioRecompensaAsync_Domain_Entities_UsuarioRecompensa_" data-uid="Application.Services.RecompensaService.AddUsuarioRecompensaAsync(Domain.Entities.UsuarioRecompensa)">
+  AddUsuarioRecompensaAsync(UsuarioRecompensa)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Application/Services/RecompensaService.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; AddUsuarioRecompensaAsync(UsuarioRecompensa usuarioRecompensa)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>usuarioRecompensa</code> <a class="xref" href="Domain.Entities.UsuarioRecompensa.html">UsuarioRecompensa</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Application_Services_RecompensaService_GenerarRecompensa_" data-uid="Application.Services.RecompensaService.GenerarRecompensa*"></a>
+
+  <h3 id="Application_Services_RecompensaService_GenerarRecompensa_System_Int32_Domain_Entities_TipoRecompensa_" data-uid="Application.Services.RecompensaService.GenerarRecompensa(System.Int32,Domain.Entities.TipoRecompensa)">
+  GenerarRecompensa(int, TipoRecompensa)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Application/Services/RecompensaService.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GenerarRecompensa(int idUsuario, TipoRecompensa tipoRecompensa)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>idUsuario</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>tipoRecompensa</code> <a class="xref" href="Domain.Entities.TipoRecompensa.html">TipoRecompensa</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Application_Services_RecompensaService_GetAllAsync_" data-uid="Application.Services.RecompensaService.GetAllAsync*"></a>
+
+  <h3 id="Application_Services_RecompensaService_GetAllAsync" data-uid="Application.Services.RecompensaService.GetAllAsync">
+  GetAllAsync()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Application/Services/RecompensaService.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Devuelve todas las entidades</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;Recompensa&gt;&gt; GetAllAsync()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Domain.Entities.Recompensa.html">Recompensa</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Application_Services_RecompensaService_GetAllTiposRecompensas_" data-uid="Application.Services.RecompensaService.GetAllTiposRecompensas*"></a>
+
+  <h3 id="Application_Services_RecompensaService_GetAllTiposRecompensas" data-uid="Application.Services.RecompensaService.GetAllTiposRecompensas">
+  GetAllTiposRecompensas()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Application/Services/RecompensaService.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;TipoRecompensa&gt;&gt; GetAllTiposRecompensas()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Domain.Entities.TipoRecompensa.html">TipoRecompensa</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Application_Services_RecompensaService_GetByFiltersAsync_" data-uid="Application.Services.RecompensaService.GetByFiltersAsync*"></a>
+
+  <h3 id="Application_Services_RecompensaService_GetByFiltersAsync_Application_DTOs_Filters_RecompensaFilters_Application_Interfaces_Common_IQueryOptions_Domain_Entities_Recompensa__" data-uid="Application.Services.RecompensaService.GetByFiltersAsync(Application.DTOs.Filters.RecompensaFilters,Application.Interfaces.Common.IQueryOptions{Domain.Entities.Recompensa})">
+  GetByFiltersAsync(RecompensaFilters, IQueryOptions&lt;Recompensa&gt;?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Application/Services/RecompensaService.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;Recompensa&gt;&gt; GetByFiltersAsync(RecompensaFilters filters, IQueryOptions&lt;Recompensa&gt;? queryOptions = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>filters</code> <a class="xref" href="Application.DTOs.Filters.RecompensaFilters.html">RecompensaFilters</a></dt>
+    <dd></dd>
+    <dt><code>queryOptions</code> <a class="xref" href="Application.Interfaces.Common.IQueryOptions-1.html">IQueryOptions</a>&lt;<a class="xref" href="Domain.Entities.Recompensa.html">Recompensa</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Domain.Entities.Recompensa.html">Recompensa</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Application_Services_RecompensaService_GetByIdAsync_" data-uid="Application.Services.RecompensaService.GetByIdAsync*"></a>
+
+  <h3 id="Application_Services_RecompensaService_GetByIdAsync_System_Int32_" data-uid="Application.Services.RecompensaService.GetByIdAsync(System.Int32)">
+  GetByIdAsync(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Application/Services/RecompensaService.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Devuelve la entidad con el Id especificado</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;Recompensa?&gt; GetByIdAsync(int id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Domain.Entities.Recompensa.html">Recompensa</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Application_Services_RecompensaService_GetRecompensasByUsuario_" data-uid="Application.Services.RecompensaService.GetRecompensasByUsuario*"></a>
+
+  <h3 id="Application_Services_RecompensaService_GetRecompensasByUsuario_System_Int32_" data-uid="Application.Services.RecompensaService.GetRecompensasByUsuario(System.Int32)">
+  GetRecompensasByUsuario(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Application/Services/RecompensaService.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;Recompensa&gt;&gt; GetRecompensasByUsuario(int idUsuario)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>idUsuario</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Domain.Entities.Recompensa.html">Recompensa</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Application_Services_RecompensaService_GetTipoRecompensa_" data-uid="Application.Services.RecompensaService.GetTipoRecompensa*"></a>
+
+  <h3 id="Application_Services_RecompensaService_GetTipoRecompensa_System_Guid_" data-uid="Application.Services.RecompensaService.GetTipoRecompensa(System.Guid)">
+  GetTipoRecompensa(Guid)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Application/Services/RecompensaService.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;TipoRecompensa&gt; GetTipoRecompensa(Guid idTipoRecompensa)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>idTipoRecompensa</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Domain.Entities.TipoRecompensa.html">TipoRecompensa</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Application_Services_RecompensaService_GetUsuarioRecompensaAsync_" data-uid="Application.Services.RecompensaService.GetUsuarioRecompensaAsync*"></a>
+
+  <h3 id="Application_Services_RecompensaService_GetUsuarioRecompensaAsync_System_Int32_System_Int32_" data-uid="Application.Services.RecompensaService.GetUsuarioRecompensaAsync(System.Int32,System.Int32)">
+  GetUsuarioRecompensaAsync(int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Application/Services/RecompensaService.cs/#L93"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;UsuarioRecompensa&gt; GetUsuarioRecompensaAsync(int idUsuario, int idRecompensa)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>idUsuario</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>idRecompensa</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Domain.Entities.UsuarioRecompensa.html">UsuarioRecompensa</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Application_Services_RecompensaService_GetUsuariosRecompensasAllAsync_" data-uid="Application.Services.RecompensaService.GetUsuariosRecompensasAllAsync*"></a>
+
+  <h3 id="Application_Services_RecompensaService_GetUsuariosRecompensasAllAsync" data-uid="Application.Services.RecompensaService.GetUsuariosRecompensasAllAsync">
+  GetUsuariosRecompensasAllAsync()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Application/Services/RecompensaService.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;UsuarioRecompensa&gt;&gt; GetUsuariosRecompensasAllAsync()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Domain.Entities.UsuarioRecompensa.html">UsuarioRecompensa</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Application_Services_RecompensaService_Remove_" data-uid="Application.Services.RecompensaService.Remove*"></a>
+
+  <h3 id="Application_Services_RecompensaService_Remove_System_Int32_" data-uid="Application.Services.RecompensaService.Remove(System.Int32)">
+  Remove(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Application/Services/RecompensaService.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Elimina la entidad con el Id especificado</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; Remove(int id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Application_Services_RecompensaService_RemoveTipoRecompensa_" data-uid="Application.Services.RecompensaService.RemoveTipoRecompensa*"></a>
+
+  <h3 id="Application_Services_RecompensaService_RemoveTipoRecompensa_System_Guid_" data-uid="Application.Services.RecompensaService.RemoveTipoRecompensa(System.Guid)">
+  RemoveTipoRecompensa(Guid)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Application/Services/RecompensaService.cs/#L83"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; RemoveTipoRecompensa(Guid idTipoRecompensa)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>idTipoRecompensa</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Application_Services_RecompensaService_RemoveUsuarioRecompensa_" data-uid="Application.Services.RecompensaService.RemoveUsuarioRecompensa*"></a>
+
+  <h3 id="Application_Services_RecompensaService_RemoveUsuarioRecompensa_System_Int32_System_Int32_" data-uid="Application.Services.RecompensaService.RemoveUsuarioRecompensa(System.Int32,System.Int32)">
+  RemoveUsuarioRecompensa(int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Application/Services/RecompensaService.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; RemoveUsuarioRecompensa(int idUsuario, int idRecompensa)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>idUsuario</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>idRecompensa</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Application_Services_RecompensaService_UpdateAsync_" data-uid="Application.Services.RecompensaService.UpdateAsync*"></a>
+
+  <h3 id="Application_Services_RecompensaService_UpdateAsync_Domain_Entities_Recompensa_" data-uid="Application.Services.RecompensaService.UpdateAsync(Domain.Entities.Recompensa)">
+  UpdateAsync(Recompensa)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Application/Services/RecompensaService.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Actualiza la entidad afectada</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; UpdateAsync(Recompensa recompensa)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>recompensa</code> <a class="xref" href="Domain.Entities.Recompensa.html">Recompensa</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Application_Services_RecompensaService_UpdateTipoRecompensa_" data-uid="Application.Services.RecompensaService.UpdateTipoRecompensa*"></a>
+
+  <h3 id="Application_Services_RecompensaService_UpdateTipoRecompensa_Domain_Entities_TipoRecompensa_" data-uid="Application.Services.RecompensaService.UpdateTipoRecompensa(Domain.Entities.TipoRecompensa)">
+  UpdateTipoRecompensa(TipoRecompensa)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Application/Services/RecompensaService.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; UpdateTipoRecompensa(TipoRecompensa tipoRecompensa)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tipoRecompensa</code> <a class="xref" href="Domain.Entities.TipoRecompensa.html">TipoRecompensa</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Application_Services_RecompensaService_UpdateUsuarioRecompensaAsync_" data-uid="Application.Services.RecompensaService.UpdateUsuarioRecompensaAsync*"></a>
+
+  <h3 id="Application_Services_RecompensaService_UpdateUsuarioRecompensaAsync_Domain_Entities_UsuarioRecompensa_" data-uid="Application.Services.RecompensaService.UpdateUsuarioRecompensaAsync(Domain.Entities.UsuarioRecompensa)">
+  UpdateUsuarioRecompensaAsync(UsuarioRecompensa)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Application/Services/RecompensaService.cs/#L99"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; UpdateUsuarioRecompensaAsync(UsuarioRecompensa usuarioRecompensa)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>usuarioRecompensa</code> <a class="xref" href="Domain.Entities.UsuarioRecompensa.html">UsuarioRecompensa</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Application/Services/RecompensaService.cs/#L13" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

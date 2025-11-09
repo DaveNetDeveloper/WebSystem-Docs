@@ -1,0 +1,2091 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ApplicationDbContext | Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ApplicationDbContext | Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DaveNetDeveloper/WebSystem/new/develop/apiSpec/new?filename=Infrastructure_Persistence_ApplicationDbContext.md&amp;value=---%0Auid%3A%20Infrastructure.Persistence.ApplicationDbContext%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Documentation">
+            Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Infrastructure.Persistence.ApplicationDbContext">
+
+
+
+  <h1 id="Infrastructure_Persistence_ApplicationDbContext" data-uid="Infrastructure.Persistence.ApplicationDbContext" class="text-break">
+Class ApplicationDbContext  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Infrastructure.html">Infrastructure</a>.<a class="xref" href="Infrastructure.Persistence.html">Persistence</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Infrastructure.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ApplicationDbContext : DbContext, IInfrastructure&lt;IServiceProvider&gt;, IDbContextDependencies, IDbSetCache, IDbContextPoolable, IResettableService, IDisposable, IAsyncDisposable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext">DbContext</a></div>
+      <div><span class="xref">ApplicationDbContext</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.infrastructure.iinfrastructure-1">IInfrastructure</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iserviceprovider">IServiceProvider</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.internal.idbcontextdependencies">IDbContextDependencies</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.internal.idbsetcache">IDbSetCache</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.internal.idbcontextpoolable">IDbContextPoolable</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.infrastructure.iresettableservice">IResettableService</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iasyncdisposable">IAsyncDisposable</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.set#microsoft-entityframeworkcore-dbcontext-set-1">DbContext.Set&lt;TEntity&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.set#microsoft-entityframeworkcore-dbcontext-set-1(system-string)">DbContext.Set&lt;TEntity&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.onconfiguring">DbContext.OnConfiguring(DbContextOptionsBuilder)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.configureconventions">DbContext.ConfigureConventions(ModelConfigurationBuilder)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.savechanges#microsoft-entityframeworkcore-dbcontext-savechanges">DbContext.SaveChanges()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.savechanges#microsoft-entityframeworkcore-dbcontext-savechanges(system-boolean)">DbContext.SaveChanges(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.savechangesasync#microsoft-entityframeworkcore-dbcontext-savechangesasync(system-threading-cancellationtoken)">DbContext.SaveChangesAsync(CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.savechangesasync#microsoft-entityframeworkcore-dbcontext-savechangesasync(system-boolean-system-threading-cancellationtoken)">DbContext.SaveChangesAsync(bool, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.dispose">DbContext.Dispose()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.disposeasync">DbContext.DisposeAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.entry#microsoft-entityframeworkcore-dbcontext-entry-1(-0)">DbContext.Entry&lt;TEntity&gt;(TEntity)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.entry#microsoft-entityframeworkcore-dbcontext-entry(system-object)">DbContext.Entry(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.add#microsoft-entityframeworkcore-dbcontext-add-1(-0)">DbContext.Add&lt;TEntity&gt;(TEntity)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.addasync#microsoft-entityframeworkcore-dbcontext-addasync-1(-0-system-threading-cancellationtoken)">DbContext.AddAsync&lt;TEntity&gt;(TEntity, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.attach#microsoft-entityframeworkcore-dbcontext-attach-1(-0)">DbContext.Attach&lt;TEntity&gt;(TEntity)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.update#microsoft-entityframeworkcore-dbcontext-update-1(-0)">DbContext.Update&lt;TEntity&gt;(TEntity)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.remove#microsoft-entityframeworkcore-dbcontext-remove-1(-0)">DbContext.Remove&lt;TEntity&gt;(TEntity)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.add#microsoft-entityframeworkcore-dbcontext-add(system-object)">DbContext.Add(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.addasync#microsoft-entityframeworkcore-dbcontext-addasync(system-object-system-threading-cancellationtoken)">DbContext.AddAsync(object, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.attach#microsoft-entityframeworkcore-dbcontext-attach(system-object)">DbContext.Attach(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.update#microsoft-entityframeworkcore-dbcontext-update(system-object)">DbContext.Update(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.remove#microsoft-entityframeworkcore-dbcontext-remove(system-object)">DbContext.Remove(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.addrange#microsoft-entityframeworkcore-dbcontext-addrange(system-object())">DbContext.AddRange(params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.addrangeasync#microsoft-entityframeworkcore-dbcontext-addrangeasync(system-object())">DbContext.AddRangeAsync(params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.attachrange#microsoft-entityframeworkcore-dbcontext-attachrange(system-object())">DbContext.AttachRange(params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.updaterange#microsoft-entityframeworkcore-dbcontext-updaterange(system-object())">DbContext.UpdateRange(params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.removerange#microsoft-entityframeworkcore-dbcontext-removerange(system-object())">DbContext.RemoveRange(params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.addrange#microsoft-entityframeworkcore-dbcontext-addrange(system-collections-generic-ienumerable((system-object)))">DbContext.AddRange(IEnumerable&lt;object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.addrangeasync#microsoft-entityframeworkcore-dbcontext-addrangeasync(system-collections-generic-ienumerable((system-object))-system-threading-cancellationtoken)">DbContext.AddRangeAsync(IEnumerable&lt;object&gt;, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.attachrange#microsoft-entityframeworkcore-dbcontext-attachrange(system-collections-generic-ienumerable((system-object)))">DbContext.AttachRange(IEnumerable&lt;object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.updaterange#microsoft-entityframeworkcore-dbcontext-updaterange(system-collections-generic-ienumerable((system-object)))">DbContext.UpdateRange(IEnumerable&lt;object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.removerange#microsoft-entityframeworkcore-dbcontext-removerange(system-collections-generic-ienumerable((system-object)))">DbContext.RemoveRange(IEnumerable&lt;object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.find#microsoft-entityframeworkcore-dbcontext-find(system-type-system-object())">DbContext.Find(Type, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.findasync#microsoft-entityframeworkcore-dbcontext-findasync(system-type-system-object())">DbContext.FindAsync(Type, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.findasync#microsoft-entityframeworkcore-dbcontext-findasync(system-type-system-object()-system-threading-cancellationtoken)">DbContext.FindAsync(Type, object[], CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.find#microsoft-entityframeworkcore-dbcontext-find-1(system-object())">DbContext.Find&lt;TEntity&gt;(params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.findasync#microsoft-entityframeworkcore-dbcontext-findasync-1(system-object())">DbContext.FindAsync&lt;TEntity&gt;(params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.findasync#microsoft-entityframeworkcore-dbcontext-findasync-1(system-object()-system-threading-cancellationtoken)">DbContext.FindAsync&lt;TEntity&gt;(object[], CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.fromexpression">DbContext.FromExpression&lt;TResult&gt;(Expression&lt;Func&lt;IQueryable&lt;TResult&gt;&gt;&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.database">DbContext.Database</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.changetracker">DbContext.ChangeTracker</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.model">DbContext.Model</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.contextid">DbContext.ContextId</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.savingchanges">DbContext.SavingChanges</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.savedchanges">DbContext.SavedChanges</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.savechangesfailed">DbContext.SaveChangesFailed</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext__ctor_" data-uid="Infrastructure.Persistence.ApplicationDbContext.#ctor*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext__ctor_Microsoft_EntityFrameworkCore_DbContextOptions_Infrastructure_Persistence_ApplicationDbContext__" data-uid="Infrastructure.Persistence.ApplicationDbContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{Infrastructure.Persistence.ApplicationDbContext})">
+  ApplicationDbContext(DbContextOptions&lt;ApplicationDbContext&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ApplicationDbContext(DbContextOptions&lt;ApplicationDbContext&gt; options)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>options</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontextoptions-1">DbContextOptions</a>&lt;<a class="xref" href="Infrastructure.Persistence.ApplicationDbContext.html">ApplicationDbContext</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_Acciones_" data-uid="Infrastructure.Persistence.ApplicationDbContext.Acciones*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_Acciones" data-uid="Infrastructure.Persistence.ApplicationDbContext.Acciones">
+  Acciones
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;Accion&gt; Acciones { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.Entities.Accion.html">Accion</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_ActividadImagenes_" data-uid="Infrastructure.Persistence.ApplicationDbContext.ActividadImagenes*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_ActividadImagenes" data-uid="Infrastructure.Persistence.ApplicationDbContext.ActividadImagenes">
+  ActividadImagenes
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;ActividadImagen&gt; ActividadImagenes { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.Entities.ActividadImagen.html">ActividadImagen</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_ActividadReservas_" data-uid="Infrastructure.Persistence.ApplicationDbContext.ActividadReservas*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_ActividadReservas" data-uid="Infrastructure.Persistence.ApplicationDbContext.ActividadReservas">
+  ActividadReservas
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;ActividadReserva&gt; ActividadReservas { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.Entities.ActividadReserva.html">ActividadReserva</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_Actividades_" data-uid="Infrastructure.Persistence.ApplicationDbContext.Actividades*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_Actividades" data-uid="Infrastructure.Persistence.ApplicationDbContext.Actividades">
+  Actividades
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;Actividad&gt; Actividades { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.Entities.Actividad.html">Actividad</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_CampanaAcciones_" data-uid="Infrastructure.Persistence.ApplicationDbContext.CampanaAcciones*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_CampanaAcciones" data-uid="Infrastructure.Persistence.ApplicationDbContext.CampanaAcciones">
+  CampanaAcciones
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;CampanaAcciones&gt; CampanaAcciones { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.Entities.CampanaAcciones.html">CampanaAcciones</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_CampanaExecutions_" data-uid="Infrastructure.Persistence.ApplicationDbContext.CampanaExecutions*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_CampanaExecutions" data-uid="Infrastructure.Persistence.ApplicationDbContext.CampanaExecutions">
+  CampanaExecutions
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;CampanaExecution&gt; CampanaExecutions { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.Entities.CampanaExecution.html">CampanaExecution</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_CampanaSegmentos_" data-uid="Infrastructure.Persistence.ApplicationDbContext.CampanaSegmentos*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_CampanaSegmentos" data-uid="Infrastructure.Persistence.ApplicationDbContext.CampanaSegmentos">
+  CampanaSegmentos
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;CampanaSegmentos&gt; CampanaSegmentos { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.Entities.CampanaSegmentos.html">CampanaSegmentos</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_Campanas_" data-uid="Infrastructure.Persistence.ApplicationDbContext.Campanas*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_Campanas" data-uid="Infrastructure.Persistence.ApplicationDbContext.Campanas">
+  Campanas
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;Campana&gt; Campanas { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.Entities.Campana.html">Campana</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_Categorias_" data-uid="Infrastructure.Persistence.ApplicationDbContext.Categorias*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_Categorias" data-uid="Infrastructure.Persistence.ApplicationDbContext.Categorias">
+  Categorias
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;Categoria&gt; Categorias { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.Entities.Categoria.html">Categoria</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_Consultas_" data-uid="Infrastructure.Persistence.ApplicationDbContext.Consultas*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_Consultas" data-uid="Infrastructure.Persistence.ApplicationDbContext.Consultas">
+  Consultas
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;Consulta&gt; Consultas { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.Entities.Consulta.html">Consulta</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_Direcciones_" data-uid="Infrastructure.Persistence.ApplicationDbContext.Direcciones*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_Direcciones" data-uid="Infrastructure.Persistence.ApplicationDbContext.Direcciones">
+  Direcciones
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;Direccion&gt; Direcciones { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.Entities.Direccion.html">Direccion</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_EmailTokens_" data-uid="Infrastructure.Persistence.ApplicationDbContext.EmailTokens*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_EmailTokens" data-uid="Infrastructure.Persistence.ApplicationDbContext.EmailTokens">
+  EmailTokens
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;EmailToken&gt; EmailTokens { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.Entities.EmailToken.html">EmailToken</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_EntidadCategorias_" data-uid="Infrastructure.Persistence.ApplicationDbContext.EntidadCategorias*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_EntidadCategorias" data-uid="Infrastructure.Persistence.ApplicationDbContext.EntidadCategorias">
+  EntidadCategorias
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;EntidadCategoria&gt; EntidadCategorias { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.Entities.EntidadCategoria.html">EntidadCategoria</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_Entidades_" data-uid="Infrastructure.Persistence.ApplicationDbContext.Entidades*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_Entidades" data-uid="Infrastructure.Persistence.ApplicationDbContext.Entidades">
+  Entidades
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;Entidad&gt; Entidades { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.Entities.Entidad.html">Entidad</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_FAQS_" data-uid="Infrastructure.Persistence.ApplicationDbContext.FAQS*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_FAQS" data-uid="Infrastructure.Persistence.ApplicationDbContext.FAQS">
+  FAQS
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;FAQ&gt; FAQS { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.Entities.FAQ.html">FAQ</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_InAppNotifications_" data-uid="Infrastructure.Persistence.ApplicationDbContext.InAppNotifications*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_InAppNotifications" data-uid="Infrastructure.Persistence.ApplicationDbContext.InAppNotifications">
+  InAppNotifications
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;InAppNotification&gt; InAppNotifications { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.Entities.InAppNotification.html">InAppNotification</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_Logins_" data-uid="Infrastructure.Persistence.ApplicationDbContext.Logins*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_Logins" data-uid="Infrastructure.Persistence.ApplicationDbContext.Logins">
+  Logins
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;Login&gt; Logins { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.Entities.Login.html">Login</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_Logs_" data-uid="Infrastructure.Persistence.ApplicationDbContext.Logs*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_Logs" data-uid="Infrastructure.Persistence.ApplicationDbContext.Logs">
+  Logs
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;Log&gt; Logs { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.Entities.Log.html">Log</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_MotivosConsultas_" data-uid="Infrastructure.Persistence.ApplicationDbContext.MotivosConsultas*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_MotivosConsultas" data-uid="Infrastructure.Persistence.ApplicationDbContext.MotivosConsultas">
+  MotivosConsultas
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;MotivoConsulta&gt; MotivosConsultas { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.Entities.MotivoConsulta.html">MotivoConsulta</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_ProductoImagenes_" data-uid="Infrastructure.Persistence.ApplicationDbContext.ProductoImagenes*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_ProductoImagenes" data-uid="Infrastructure.Persistence.ApplicationDbContext.ProductoImagenes">
+  ProductoImagenes
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;ProductoImagen&gt; ProductoImagenes { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.Entities.ProductoImagen.html">ProductoImagen</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_Productos_" data-uid="Infrastructure.Persistence.ApplicationDbContext.Productos*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_Productos" data-uid="Infrastructure.Persistence.ApplicationDbContext.Productos">
+  Productos
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;Producto&gt; Productos { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.Entities.Producto.html">Producto</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_QRs_" data-uid="Infrastructure.Persistence.ApplicationDbContext.QRs*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_QRs" data-uid="Infrastructure.Persistence.ApplicationDbContext.QRs">
+  QRs
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;QR&gt; QRs { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.Entities.QR.html">QR</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_Recompensas_" data-uid="Infrastructure.Persistence.ApplicationDbContext.Recompensas*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_Recompensas" data-uid="Infrastructure.Persistence.ApplicationDbContext.Recompensas">
+  Recompensas
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;Recompensa&gt; Recompensas { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.Entities.Recompensa.html">Recompensa</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_Roles_" data-uid="Infrastructure.Persistence.ApplicationDbContext.Roles*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_Roles" data-uid="Infrastructure.Persistence.ApplicationDbContext.Roles">
+  Roles
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;Rol&gt; Roles { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.Entities.Rol.html">Rol</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_Segmentos_" data-uid="Infrastructure.Persistence.ApplicationDbContext.Segmentos*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_Segmentos" data-uid="Infrastructure.Persistence.ApplicationDbContext.Segmentos">
+  Segmentos
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;Segmento&gt; Segmentos { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.Entities.Segmento.html">Segmento</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_SmsNotifications_" data-uid="Infrastructure.Persistence.ApplicationDbContext.SmsNotifications*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_SmsNotifications" data-uid="Infrastructure.Persistence.ApplicationDbContext.SmsNotifications">
+  SmsNotifications
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;SmsNotification&gt; SmsNotifications { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.Entities.SmsNotification.html">SmsNotification</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_Testimonios_" data-uid="Infrastructure.Persistence.ApplicationDbContext.Testimonios*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_Testimonios" data-uid="Infrastructure.Persistence.ApplicationDbContext.Testimonios">
+  Testimonios
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;Testimonio&gt; Testimonios { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.Entities.Testimonio.html">Testimonio</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_TipoActividades_" data-uid="Infrastructure.Persistence.ApplicationDbContext.TipoActividades*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_TipoActividades" data-uid="Infrastructure.Persistence.ApplicationDbContext.TipoActividades">
+  TipoActividades
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;TipoActividad&gt; TipoActividades { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.Entities.TipoActividad.html">TipoActividad</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_TipoCampanas_" data-uid="Infrastructure.Persistence.ApplicationDbContext.TipoCampanas*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_TipoCampanas" data-uid="Infrastructure.Persistence.ApplicationDbContext.TipoCampanas">
+  TipoCampanas
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;TipoCampana&gt; TipoCampanas { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.Entities.TipoCampana.html">TipoCampana</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_TipoEntidades_" data-uid="Infrastructure.Persistence.ApplicationDbContext.TipoEntidades*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_TipoEntidades" data-uid="Infrastructure.Persistence.ApplicationDbContext.TipoEntidades">
+  TipoEntidades
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;TipoEntidad&gt; TipoEntidades { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.Entities.TipoEntidad.html">TipoEntidad</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_TipoEnvioCorreos_" data-uid="Infrastructure.Persistence.ApplicationDbContext.TipoEnvioCorreos*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_TipoEnvioCorreos" data-uid="Infrastructure.Persistence.ApplicationDbContext.TipoEnvioCorreos">
+  TipoEnvioCorreos
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;TipoEnvioCorreo&gt; TipoEnvioCorreos { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.Entities.TipoEnvioCorreo.html">TipoEnvioCorreo</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_TipoRecompensas_" data-uid="Infrastructure.Persistence.ApplicationDbContext.TipoRecompensas*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_TipoRecompensas" data-uid="Infrastructure.Persistence.ApplicationDbContext.TipoRecompensas">
+  TipoRecompensas
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;TipoRecompensa&gt; TipoRecompensas { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.Entities.TipoRecompensa.html">TipoRecompensa</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_TipoSegmentos_" data-uid="Infrastructure.Persistence.ApplicationDbContext.TipoSegmentos*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_TipoSegmentos" data-uid="Infrastructure.Persistence.ApplicationDbContext.TipoSegmentos">
+  TipoSegmentos
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;TipoSegmento&gt; TipoSegmentos { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.Entities.TipoSegmento.html">TipoSegmento</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_TipoTransacciones_" data-uid="Infrastructure.Persistence.ApplicationDbContext.TipoTransacciones*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_TipoTransacciones" data-uid="Infrastructure.Persistence.ApplicationDbContext.TipoTransacciones">
+  TipoTransacciones
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;TipoTransaccion&gt; TipoTransacciones { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.Entities.TipoTransaccion.html">TipoTransaccion</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_Transacciones_" data-uid="Infrastructure.Persistence.ApplicationDbContext.Transacciones*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_Transacciones" data-uid="Infrastructure.Persistence.ApplicationDbContext.Transacciones">
+  Transacciones
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;Transaccion&gt; Transacciones { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.Entities.Transaccion.html">Transaccion</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_UsuarioDirecciones_" data-uid="Infrastructure.Persistence.ApplicationDbContext.UsuarioDirecciones*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_UsuarioDirecciones" data-uid="Infrastructure.Persistence.ApplicationDbContext.UsuarioDirecciones">
+  UsuarioDirecciones
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;UsuarioDireccion&gt; UsuarioDirecciones { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.Entities.UsuarioDireccion.html">UsuarioDireccion</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_UsuarioEntidades_" data-uid="Infrastructure.Persistence.ApplicationDbContext.UsuarioEntidades*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_UsuarioEntidades" data-uid="Infrastructure.Persistence.ApplicationDbContext.UsuarioEntidades">
+  UsuarioEntidades
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;UsuarioEntidad&gt; UsuarioEntidades { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.Entities.UsuarioEntidad.html">UsuarioEntidad</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_UsuarioRecompensas_" data-uid="Infrastructure.Persistence.ApplicationDbContext.UsuarioRecompensas*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_UsuarioRecompensas" data-uid="Infrastructure.Persistence.ApplicationDbContext.UsuarioRecompensas">
+  UsuarioRecompensas
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;UsuarioRecompensa&gt; UsuarioRecompensas { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.Entities.UsuarioRecompensa.html">UsuarioRecompensa</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_UsuarioRoles_" data-uid="Infrastructure.Persistence.ApplicationDbContext.UsuarioRoles*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_UsuarioRoles" data-uid="Infrastructure.Persistence.ApplicationDbContext.UsuarioRoles">
+  UsuarioRoles
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;UsuarioRol&gt; UsuarioRoles { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.Entities.UsuarioRol.html">UsuarioRol</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_UsuarioSegmentos_" data-uid="Infrastructure.Persistence.ApplicationDbContext.UsuarioSegmentos*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_UsuarioSegmentos" data-uid="Infrastructure.Persistence.ApplicationDbContext.UsuarioSegmentos">
+  UsuarioSegmentos
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;UsuarioSegmentos&gt; UsuarioSegmentos { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.Entities.UsuarioSegmentos.html">UsuarioSegmentos</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_Usuarios_" data-uid="Infrastructure.Persistence.ApplicationDbContext.Usuarios*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_Usuarios" data-uid="Infrastructure.Persistence.ApplicationDbContext.Usuarios">
+  Usuarios
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;Usuario&gt; Usuarios { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.Entities.Usuario.html">Usuario</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_WorkerServiceExecutions_" data-uid="Infrastructure.Persistence.ApplicationDbContext.WorkerServiceExecutions*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_WorkerServiceExecutions" data-uid="Infrastructure.Persistence.ApplicationDbContext.WorkerServiceExecutions">
+  WorkerServiceExecutions
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;WorkerServiceExecution&gt; WorkerServiceExecutions { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.Entities.WorkerServiceExecution.html">WorkerServiceExecution</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_v_ActividadUsuarios_" data-uid="Infrastructure.Persistence.ApplicationDbContext.v_ActividadUsuarios*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_v_ActividadUsuarios" data-uid="Infrastructure.Persistence.ApplicationDbContext.v_ActividadUsuarios">
+  v_ActividadUsuarios
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;v_ActividadUsuarios&gt; v_ActividadUsuarios { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.DataQuery.v_ActividadUsuarios.html">v_ActividadUsuarios</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_v_AllCampanasData_" data-uid="Infrastructure.Persistence.ApplicationDbContext.v_AllCampanasData*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_v_AllCampanasData" data-uid="Infrastructure.Persistence.ApplicationDbContext.v_AllCampanasData">
+  v_AllCampanasData
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;v_AllCampanasData&gt; v_AllCampanasData { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.DataQuery.v_AllCampanasData.html">v_AllCampanasData</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_v_AllUserData_" data-uid="Infrastructure.Persistence.ApplicationDbContext.v_AllUserData*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_v_AllUserData" data-uid="Infrastructure.Persistence.ApplicationDbContext.v_AllUserData">
+  v_AllUserData
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;v_AllUserData&gt; v_AllUserData { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.DataQuery.v_AllUserData.html">v_AllUserData</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_v_AsistenciaActividades_" data-uid="Infrastructure.Persistence.ApplicationDbContext.v_AsistenciaActividades*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_v_AsistenciaActividades" data-uid="Infrastructure.Persistence.ApplicationDbContext.v_AsistenciaActividades">
+  v_AsistenciaActividades
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;v_AsistenciaActividades&gt; v_AsistenciaActividades { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.DataQuery.v_AsistenciaActividades.html">v_AsistenciaActividades</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_v_CampanasUsuarios_" data-uid="Infrastructure.Persistence.ApplicationDbContext.v_CampanasUsuarios*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_v_CampanasUsuarios" data-uid="Infrastructure.Persistence.ApplicationDbContext.v_CampanasUsuarios">
+  v_CampanasUsuarios
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;v_CampanasUsuarios&gt; v_CampanasUsuarios { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.DataQuery.v_CampanasUsuarios.html">v_CampanasUsuarios</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_v_RolesUsuarios_" data-uid="Infrastructure.Persistence.ApplicationDbContext.v_RolesUsuarios*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_v_RolesUsuarios" data-uid="Infrastructure.Persistence.ApplicationDbContext.v_RolesUsuarios">
+  v_RolesUsuarios
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;v_RolesUsuarios&gt; v_RolesUsuarios { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.DataQuery.v_RolesUsuarios.html">v_RolesUsuarios</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_v_TotalErrores_" data-uid="Infrastructure.Persistence.ApplicationDbContext.v_TotalErrores*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_v_TotalErrores" data-uid="Infrastructure.Persistence.ApplicationDbContext.v_TotalErrores">
+  v_TotalErrores
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;v_TotalErrores&gt; v_TotalErrores { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.DataQuery.v_TotalErrores.html">v_TotalErrores</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_v_TotalUltimasTransacciones_" data-uid="Infrastructure.Persistence.ApplicationDbContext.v_TotalUltimasTransacciones*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_v_TotalUltimasTransacciones" data-uid="Infrastructure.Persistence.ApplicationDbContext.v_TotalUltimasTransacciones">
+  v_TotalUltimasTransacciones
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;v_TotalUltimasTransacciones&gt; v_TotalUltimasTransacciones { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.DataQuery.v_TotalUltimasTransacciones.html">v_TotalUltimasTransacciones</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_v_UsuariosDispositivos_" data-uid="Infrastructure.Persistence.ApplicationDbContext.v_UsuariosDispositivos*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_v_UsuariosDispositivos" data-uid="Infrastructure.Persistence.ApplicationDbContext.v_UsuariosDispositivos">
+  v_UsuariosDispositivos
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;v_UsuariosDispositivos&gt; v_UsuariosDispositivos { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.DataQuery.v_UsuariosDispositivos.html">v_UsuariosDispositivos</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_v_UsuariosIdiomas_" data-uid="Infrastructure.Persistence.ApplicationDbContext.v_UsuariosIdiomas*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_v_UsuariosIdiomas" data-uid="Infrastructure.Persistence.ApplicationDbContext.v_UsuariosIdiomas">
+  v_UsuariosIdiomas
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;v_UsuariosIdiomas&gt; v_UsuariosIdiomas { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.DataQuery.v_UsuariosIdiomas.html">v_UsuariosIdiomas</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_v_UsuariosInactivos_" data-uid="Infrastructure.Persistence.ApplicationDbContext.v_UsuariosInactivos*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_v_UsuariosInactivos" data-uid="Infrastructure.Persistence.ApplicationDbContext.v_UsuariosInactivos">
+  v_UsuariosInactivos
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;v_UsuariosInactivos&gt; v_UsuariosInactivos { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.DataQuery.v_UsuariosInactivos.html">v_UsuariosInactivos</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_v_VisitasTipoDispositivo_" data-uid="Infrastructure.Persistence.ApplicationDbContext.v_VisitasTipoDispositivo*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_v_VisitasTipoDispositivo" data-uid="Infrastructure.Persistence.ApplicationDbContext.v_VisitasTipoDispositivo">
+  v_VisitasTipoDispositivo
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;v_VisitasTipoDispositivo&gt; v_VisitasTipoDispositivo { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="Domain.DataQuery.v_VisitasTipoDispositivo.html">v_VisitasTipoDispositivo</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Infrastructure_Persistence_ApplicationDbContext_OnModelCreating_" data-uid="Infrastructure.Persistence.ApplicationDbContext.OnModelCreating*"></a>
+
+  <h3 id="Infrastructure_Persistence_ApplicationDbContext_OnModelCreating_Microsoft_EntityFrameworkCore_ModelBuilder_" data-uid="Infrastructure.Persistence.ApplicationDbContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)">
+  OnModelCreating(ModelBuilder)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Override this method to further configure the model that was discovered by convention from the entity types
+exposed in <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet&lt;TEntity&gt;</a> properties on your derived context. The resulting model may be cached
+and re-used for subsequent instances of your derived context.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnModelCreating(ModelBuilder modelBuilder)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>modelBuilder</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.modelbuilder">ModelBuilder</a></dt>
+    <dd><p>The builder being used to construct the model for this context. Databases (and other extensions) typically
+define extension methods on this object that allow you to configure aspects of the model that are specific
+to a given database.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="Infrastructure_Persistence_ApplicationDbContext_OnModelCreating_Microsoft_EntityFrameworkCore_ModelBuilder__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+                If a model is explicitly set on the options for this context (via <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontextoptionsbuilder.usemodel">UseModel(IModel)</a>)
+                then this method will not be run. However, it will still run when creating a compiled model.
+            </p>
+<p>
+                See <a href="https://aka.ms/efcore-docs-modeling">Modeling entity types and relationships</a> for more information and
+                examples.
+            </p>
+</div>
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Persistence/ApplicationDbContext.cs/#L10" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

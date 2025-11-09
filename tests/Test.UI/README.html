@@ -1,0 +1,188 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>&#129514; Tests | Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="&#129514; Tests | Documentation ">
+      
+      
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/tests/Test.UI/README.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../logo.svg" alt="Documentation">
+            Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+
+      <div class="content">
+        <div class="actionbar">
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="-tests">🧪 Tests</h1>
+
+<p>Este proyecto contiene todos los tests automatizados de la solución, organizados por tipo de prueba. Está construido con <strong>NUnit</strong>, <strong>SpecFlow</strong> y <strong>Playwright para .NET</strong>, y centraliza los diferentes niveles de validación del sistema (desde tests unitarios hasta pruebas funcionales de UI).</p>
+<hr>
+<h2 id="-estructura-de-carpetas-y-tipos-de-test">📁 Estructura de carpetas y tipos de test</h2>
+<pre><code>Test/
+├── Integration/          # Pruebas de integración entre componentes reales
+│   ├── AuthHelper.cs
+│   ├── CustomWebApplicationFactory.cs
+│   └── UsuariosControllerTests.cs
+├── Performance/          # (Vacío actualmente, reservado para tests de rendimiento)
+├── Security/             # (Vacío actualmente, reservado para tests de seguridad)
+├── UI/                   # Pruebas funcionales y de UI automatizadas
+│   ├── Features/
+│   │   └── Login.feature
+│   ├── StepsDefinitions/
+│   │   └── LoginSteps.cs
+│   ├── TestData/
+│   │   └── logins.json
+│   └── UsuariosTests.cs
+├── UnitTest/             # Pruebas unitarias puras (sin dependencias externas)
+│   └── UsuariosControllerTests.cs
+├── appsettings.json      # Configuración para entornos de prueba
+└── GlobalUsings.cs       # Usings globales para simplificar el código de test
+</code></pre>
+<hr>
+<h2 id="-tipos-de-pruebas-incluidas">🧪 Tipos de pruebas incluidas</h2>
+<h3 id="-pruebas-unitarias-unittest">✅ Pruebas Unitarias (<code>/UnitTest</code>)</h3>
+<ul>
+<li>Validan la lógica de negocio de forma aislada.</li>
+<li>Sin dependencias externas (base de datos, red, etc.).</li>
+<li>Tecnología usada: <strong>NUnit</strong>.</li>
+</ul>
+<h3 id="-pruebas-de-integración-integration">🔗 Pruebas de Integración (<code>/Integration</code>)</h3>
+<ul>
+<li>Verifican el comportamiento de componentes reales interactuando entre sí.</li>
+<li>Usan <code>CustomWebApplicationFactory</code> para montar un entorno de pruebas.</li>
+<li>Tecnología usada: <strong>NUnit</strong>, <code>Microsoft.AspNetCore.Mvc.Testing</code>.</li>
+</ul>
+<h3 id="-pruebas-funcionales--ui-ui">🧑‍💻 Pruebas Funcionales / UI (<code>/UI</code>)</h3>
+<ul>
+<li>Pruebas de extremo a extremo usando Gherkin + SpecFlow.</li>
+<li>Automación de interfaz de usuario.</li>
+<li>Manejo de datos de prueba en JSON.</li>
+<li>Tecnologías usadas:
+<ul>
+<li><strong>SpecFlow</strong> (BDD + Gherkin)</li>
+<li><strong>Playwright para .NET</strong> (automatización del navegador)</li>
+<li><strong>NUnit</strong> (como runner base)</li>
+</ul>
+</li>
+</ul>
+<h3 id="-futuras-categorías-vacías-por-ahora">🚀 Futuras categorías (vacías por ahora)</h3>
+<ul>
+<li><strong>Performance</strong>: para incluir pruebas de rendimiento con herramientas como BenchmarkDotNet o JMeter.</li>
+<li><strong>Security</strong>: para validaciones automáticas relacionadas con autenticación/autorización o análisis de vulnerabilidades.</li>
+</ul>
+<hr>
+<h2 id="-ejecución-de-tests">⚙️ Ejecución de tests</h2>
+<h3 id="ejecutar-todos-los-tests">Ejecutar todos los tests:</h3>
+<pre><code class="lang-bash">dotnet test
+</code></pre>
+<h3 id="ejecutar-por-categoría-por-ejemplo-integración">Ejecutar por categoría (por ejemplo, integración):</h3>
+<pre><code class="lang-bash">dotnet test --filter &quot;TestCategory=Integration&quot;
+</code></pre>
+<blockquote>
+<p>Nota: asegúrate de usar <code>[Category(&quot;...&quot;)]</code> en los tests NUnit para poder filtrarlos.</p>
+</blockquote>
+<hr>
+<h2 id="-requisitos">📝 Requisitos</h2>
+<ul>
+<li><a href="https://dotnet.microsoft.com/">.NET 7 SDK o superior</a></li>
+<li>NUnit</li>
+<li>SpecFlow for .NET</li>
+<li>Playwright for .NET (<code>Microsoft.Playwright.NUnit</code>)</li>
+</ul>
+<hr>
+<h2 id="-notas-adicionales">🔧 Notas adicionales</h2>
+<ul>
+<li>Si usas SpecFlow, asegúrate de que la generación automática de código está correctamente configurada con MSBuild.</li>
+<li>Usa <code>CustomWebApplicationFactory</code> para montar entornos controlados en pruebas de integración.</li>
+</ul>
+<hr>
+<h2 id="-pendiente">📌 Pendiente</h2>
+<ul>
+<li>Implementar tests reales de rendimiento y seguridad.</li>
+<li>Centralizar configuración sensible de entornos en variables de entorno o archivos protegidos.</li>
+</ul>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/tests/Test.UI/README.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

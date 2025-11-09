@@ -1,0 +1,875 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CampanaService | Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CampanaService | Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DaveNetDeveloper/WebSystem/new/develop/apiSpec/new?filename=Application_Services_CampanaService.md&amp;value=---%0Auid%3A%20Application.Services.CampanaService%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Documentation">
+            Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Application.Services.CampanaService">
+
+
+
+  <h1 id="Application_Services_CampanaService" data-uid="Application.Services.CampanaService" class="text-break">
+Class CampanaService  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Application/Services/CampanaService.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Application.html">Application</a>.<a class="xref" href="Application.Services.html">Services</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Application.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class CampanaService : ICampanaService, IService&lt;Campana, int&gt;</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CampanaService</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="Application.Interfaces.Services.ICampanaService.html">ICampanaService</a></div>
+      <div><a class="xref" href="Application.Interfaces.Services.IService-2.html">IService</a>&lt;<a class="xref" href="Domain.Entities.Campana.html">Campana</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Application_Services_CampanaService__ctor_" data-uid="Application.Services.CampanaService.#ctor*"></a>
+
+  <h3 id="Application_Services_CampanaService__ctor_Application_Interfaces_Repositories_ICampanaRepository_Application_Interfaces_Repositories_ICampanaSegmentosRepository_Application_Interfaces_Repositories_ICampanaAccionesRepository_Application_Interfaces_Services_IAccionService_" data-uid="Application.Services.CampanaService.#ctor(Application.Interfaces.Repositories.ICampanaRepository,Application.Interfaces.Repositories.ICampanaSegmentosRepository,Application.Interfaces.Repositories.ICampanaAccionesRepository,Application.Interfaces.Services.IAccionService)">
+  CampanaService(ICampanaRepository, ICampanaSegmentosRepository, ICampanaAccionesRepository, IAccionService)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Application/Services/CampanaService.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Constructor</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CampanaService(ICampanaRepository repo, ICampanaSegmentosRepository repoCampanaSegmentos, ICampanaAccionesRepository repoCampanaAcciones, IAccionService accionService)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>repo</code> <a class="xref" href="Application.Interfaces.Repositories.ICampanaRepository.html">ICampanaRepository</a></dt>
+    <dd></dd>
+    <dt><code>repoCampanaSegmentos</code> <a class="xref" href="Application.Interfaces.Repositories.ICampanaSegmentosRepository.html">ICampanaSegmentosRepository</a></dt>
+    <dd></dd>
+    <dt><code>repoCampanaAcciones</code> <a class="xref" href="Application.Interfaces.Repositories.ICampanaAccionesRepository.html">ICampanaAccionesRepository</a></dt>
+    <dd></dd>
+    <dt><code>accionService</code> <a class="xref" href="Application.Interfaces.Services.IAccionService.html">IAccionService</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Application_Services_CampanaService_AddAsync_" data-uid="Application.Services.CampanaService.AddAsync*"></a>
+
+  <h3 id="Application_Services_CampanaService_AddAsync_Domain_Entities_Campana_" data-uid="Application.Services.CampanaService.AddAsync(Domain.Entities.Campana)">
+  AddAsync(Campana)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Application/Services/CampanaService.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Crea una nueva entidad</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; AddAsync(Campana campana)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>campana</code> <a class="xref" href="Domain.Entities.Campana.html">Campana</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Application_Services_CampanaService_AddCampanaAccionAsync_" data-uid="Application.Services.CampanaService.AddCampanaAccionAsync*"></a>
+
+  <h3 id="Application_Services_CampanaService_AddCampanaAccionAsync_Domain_Entities_CampanaAcciones_" data-uid="Application.Services.CampanaService.AddCampanaAccionAsync(Domain.Entities.CampanaAcciones)">
+  AddCampanaAccionAsync(CampanaAcciones)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Application/Services/CampanaService.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AddCampanaAccionAsync(CampanaAcciones campanaSegmentos)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>campanaSegmentos</code> <a class="xref" href="Domain.Entities.CampanaAcciones.html">CampanaAcciones</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Application_Services_CampanaService_AddCampanaSegmentosAsync_" data-uid="Application.Services.CampanaService.AddCampanaSegmentosAsync*"></a>
+
+  <h3 id="Application_Services_CampanaService_AddCampanaSegmentosAsync_Domain_Entities_CampanaSegmentos_" data-uid="Application.Services.CampanaService.AddCampanaSegmentosAsync(Domain.Entities.CampanaSegmentos)">
+  AddCampanaSegmentosAsync(CampanaSegmentos)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Application/Services/CampanaService.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AddCampanaSegmentosAsync(CampanaSegmentos campanaSegmentos)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>campanaSegmentos</code> <a class="xref" href="Domain.Entities.CampanaSegmentos.html">CampanaSegmentos</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Application_Services_CampanaService_GetAccionesByCampana_" data-uid="Application.Services.CampanaService.GetAccionesByCampana*"></a>
+
+  <h3 id="Application_Services_CampanaService_GetAccionesByCampana_System_Int32_" data-uid="Application.Services.CampanaService.GetAccionesByCampana(System.Int32)">
+  GetAccionesByCampana(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Application/Services/CampanaService.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Obtener las acciones relacionadas con la campaña</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;Accion&gt;&gt; GetAccionesByCampana(int idCampana)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>idCampana</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Id de la campaña</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Domain.Entities.Accion.html">Accion</a>&gt;&gt;</dt>
+    <dd><p>Devuelve la lista de acciones para la campaña</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Application_Services_CampanaService_GetAccionesByIdCampanaAsync_" data-uid="Application.Services.CampanaService.GetAccionesByIdCampanaAsync*"></a>
+
+  <h3 id="Application_Services_CampanaService_GetAccionesByIdCampanaAsync_Domain_Entities_CampanaAcciones_" data-uid="Application.Services.CampanaService.GetAccionesByIdCampanaAsync(Domain.Entities.CampanaAcciones)">
+  GetAccionesByIdCampanaAsync(CampanaAcciones)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Application/Services/CampanaService.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CampanaAcciones GetAccionesByIdCampanaAsync(CampanaAcciones campanaSegmentos)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>campanaSegmentos</code> <a class="xref" href="Domain.Entities.CampanaAcciones.html">CampanaAcciones</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Domain.Entities.CampanaAcciones.html">CampanaAcciones</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Application_Services_CampanaService_GetAllAsync_" data-uid="Application.Services.CampanaService.GetAllAsync*"></a>
+
+  <h3 id="Application_Services_CampanaService_GetAllAsync" data-uid="Application.Services.CampanaService.GetAllAsync">
+  GetAllAsync()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Application/Services/CampanaService.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Devuelve todas las entidades</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;Campana&gt;&gt; GetAllAsync()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Domain.Entities.Campana.html">Campana</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Application_Services_CampanaService_GetByFiltersAsync_" data-uid="Application.Services.CampanaService.GetByFiltersAsync*"></a>
+
+  <h3 id="Application_Services_CampanaService_GetByFiltersAsync_Application_DTOs_Filters_CampanaFilters_Application_Interfaces_Common_IQueryOptions_Domain_Entities_Campana__" data-uid="Application.Services.CampanaService.GetByFiltersAsync(Application.DTOs.Filters.CampanaFilters,Application.Interfaces.Common.IQueryOptions{Domain.Entities.Campana})">
+  GetByFiltersAsync(CampanaFilters, IQueryOptions&lt;Campana&gt;?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Application/Services/CampanaService.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;Campana&gt;&gt; GetByFiltersAsync(CampanaFilters filters, IQueryOptions&lt;Campana&gt;? queryOptions = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>filters</code> <a class="xref" href="Application.DTOs.Filters.CampanaFilters.html">CampanaFilters</a></dt>
+    <dd></dd>
+    <dt><code>queryOptions</code> <a class="xref" href="Application.Interfaces.Common.IQueryOptions-1.html">IQueryOptions</a>&lt;<a class="xref" href="Domain.Entities.Campana.html">Campana</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Domain.Entities.Campana.html">Campana</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Application_Services_CampanaService_GetByIdAsync_" data-uid="Application.Services.CampanaService.GetByIdAsync*"></a>
+
+  <h3 id="Application_Services_CampanaService_GetByIdAsync_System_Int32_" data-uid="Application.Services.CampanaService.GetByIdAsync(System.Int32)">
+  GetByIdAsync(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Application/Services/CampanaService.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Devuelve la entidad con el Id especificado</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;Campana?&gt; GetByIdAsync(int id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Domain.Entities.Campana.html">Campana</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Application_Services_CampanaService_GetCampanaAccionesAllAsync_" data-uid="Application.Services.CampanaService.GetCampanaAccionesAllAsync*"></a>
+
+  <h3 id="Application_Services_CampanaService_GetCampanaAccionesAllAsync" data-uid="Application.Services.CampanaService.GetCampanaAccionesAllAsync">
+  GetCampanaAccionesAllAsync()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Application/Services/CampanaService.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;CampanaAcciones&gt;&gt; GetCampanaAccionesAllAsync()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Domain.Entities.CampanaAcciones.html">CampanaAcciones</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Application_Services_CampanaService_GetCampanaSegmentosAllAsync_" data-uid="Application.Services.CampanaService.GetCampanaSegmentosAllAsync*"></a>
+
+  <h3 id="Application_Services_CampanaService_GetCampanaSegmentosAllAsync" data-uid="Application.Services.CampanaService.GetCampanaSegmentosAllAsync">
+  GetCampanaSegmentosAllAsync()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Application/Services/CampanaService.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;CampanaSegmentos&gt;&gt; GetCampanaSegmentosAllAsync()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Domain.Entities.CampanaSegmentos.html">CampanaSegmentos</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Application_Services_CampanaService_GetSegmentoByCampana_" data-uid="Application.Services.CampanaService.GetSegmentoByCampana*"></a>
+
+  <h3 id="Application_Services_CampanaService_GetSegmentoByCampana_System_Int32_" data-uid="Application.Services.CampanaService.GetSegmentoByCampana(System.Int32)">
+  GetSegmentoByCampana(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Application/Services/CampanaService.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Obtener los segmentos relacionadas con la campaña</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;Segmento&gt;&gt; GetSegmentoByCampana(int idCampana)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>idCampana</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Id de la campaña</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Domain.Entities.Segmento.html">Segmento</a>&gt;&gt;</dt>
+    <dd><p>Devuelve la lista de segmentos para la campaña</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Application_Services_CampanaService_GetSegmentosByIdCampanaAsync_" data-uid="Application.Services.CampanaService.GetSegmentosByIdCampanaAsync*"></a>
+
+  <h3 id="Application_Services_CampanaService_GetSegmentosByIdCampanaAsync_Domain_Entities_CampanaSegmentos_" data-uid="Application.Services.CampanaService.GetSegmentosByIdCampanaAsync(Domain.Entities.CampanaSegmentos)">
+  GetSegmentosByIdCampanaAsync(CampanaSegmentos)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Application/Services/CampanaService.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CampanaSegmentos GetSegmentosByIdCampanaAsync(CampanaSegmentos campanaSegmentos)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>campanaSegmentos</code> <a class="xref" href="Domain.Entities.CampanaSegmentos.html">CampanaSegmentos</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Domain.Entities.CampanaSegmentos.html">CampanaSegmentos</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Application_Services_CampanaService_Remove_" data-uid="Application.Services.CampanaService.Remove*"></a>
+
+  <h3 id="Application_Services_CampanaService_Remove_System_Int32_" data-uid="Application.Services.CampanaService.Remove(System.Int32)">
+  Remove(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Application/Services/CampanaService.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Elimina la entidad con el Id especificado</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; Remove(int id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Application_Services_CampanaService_RemoveCampanaAccion_" data-uid="Application.Services.CampanaService.RemoveCampanaAccion*"></a>
+
+  <h3 id="Application_Services_CampanaService_RemoveCampanaAccion_Domain_Entities_CampanaAcciones_" data-uid="Application.Services.CampanaService.RemoveCampanaAccion(Domain.Entities.CampanaAcciones)">
+  RemoveCampanaAccion(CampanaAcciones)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Application/Services/CampanaService.cs/#L104"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool RemoveCampanaAccion(CampanaAcciones campanaSegmentos)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>campanaSegmentos</code> <a class="xref" href="Domain.Entities.CampanaAcciones.html">CampanaAcciones</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Application_Services_CampanaService_RemoveCampanaSegmentos_" data-uid="Application.Services.CampanaService.RemoveCampanaSegmentos*"></a>
+
+  <h3 id="Application_Services_CampanaService_RemoveCampanaSegmentos_Domain_Entities_CampanaSegmentos_" data-uid="Application.Services.CampanaService.RemoveCampanaSegmentos(Domain.Entities.CampanaSegmentos)">
+  RemoveCampanaSegmentos(CampanaSegmentos)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Application/Services/CampanaService.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool RemoveCampanaSegmentos(CampanaSegmentos campanaSegmentos)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>campanaSegmentos</code> <a class="xref" href="Domain.Entities.CampanaSegmentos.html">CampanaSegmentos</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Application_Services_CampanaService_UpdateAsync_" data-uid="Application.Services.CampanaService.UpdateAsync*"></a>
+
+  <h3 id="Application_Services_CampanaService_UpdateAsync_Domain_Entities_Campana_" data-uid="Application.Services.CampanaService.UpdateAsync(Domain.Entities.Campana)">
+  UpdateAsync(Campana)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Application/Services/CampanaService.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Actualiza la entidad afectada</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; UpdateAsync(Campana campana)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>campana</code> <a class="xref" href="Domain.Entities.Campana.html">Campana</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Application_Services_CampanaService_UpdateCampanaAccionAsync_" data-uid="Application.Services.CampanaService.UpdateCampanaAccionAsync*"></a>
+
+  <h3 id="Application_Services_CampanaService_UpdateCampanaAccionAsync_Domain_Entities_CampanaAcciones_" data-uid="Application.Services.CampanaService.UpdateCampanaAccionAsync(Domain.Entities.CampanaAcciones)">
+  UpdateCampanaAccionAsync(CampanaAcciones)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Application/Services/CampanaService.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool UpdateCampanaAccionAsync(CampanaAcciones campanaSegmentos)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>campanaSegmentos</code> <a class="xref" href="Domain.Entities.CampanaAcciones.html">CampanaAcciones</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Application_Services_CampanaService_UpdateCampanaSegmentosAsync_" data-uid="Application.Services.CampanaService.UpdateCampanaSegmentosAsync*"></a>
+
+  <h3 id="Application_Services_CampanaService_UpdateCampanaSegmentosAsync_Domain_Entities_CampanaSegmentos_" data-uid="Application.Services.CampanaService.UpdateCampanaSegmentosAsync(Domain.Entities.CampanaSegmentos)">
+  UpdateCampanaSegmentosAsync(CampanaSegmentos)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Application/Services/CampanaService.cs/#L83"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool UpdateCampanaSegmentosAsync(CampanaSegmentos campanaSegmentos)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>campanaSegmentos</code> <a class="xref" href="Domain.Entities.CampanaSegmentos.html">CampanaSegmentos</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Application/Services/CampanaService.cs/#L14" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

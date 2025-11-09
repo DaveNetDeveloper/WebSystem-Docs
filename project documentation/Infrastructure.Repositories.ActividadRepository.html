@@ -1,0 +1,552 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ActividadRepository | Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ActividadRepository | Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DaveNetDeveloper/WebSystem/new/develop/apiSpec/new?filename=Infrastructure_Repositories_ActividadRepository.md&amp;value=---%0Auid%3A%20Infrastructure.Repositories.ActividadRepository%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Documentation">
+            Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Infrastructure.Repositories.ActividadRepository">
+
+
+
+  <h1 id="Infrastructure_Repositories_ActividadRepository" data-uid="Infrastructure.Repositories.ActividadRepository" class="text-break">
+Class ActividadRepository  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Repositories/ActividadRepository.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Infrastructure.html">Infrastructure</a>.<a class="xref" href="Infrastructure.Repositories.html">Repositories</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Infrastructure.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ActividadRepository : BaseRepository&lt;Actividad&gt;, IActividadRepository, IRepository&lt;Actividad, int&gt;</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="Infrastructure.Repositories.BaseRepository-1.html">BaseRepository</a>&lt;<a class="xref" href="Domain.Entities.Actividad.html">Actividad</a>&gt;</div>
+      <div><span class="xref">ActividadRepository</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="Application.Interfaces.Repositories.IActividadRepository.html">IActividadRepository</a></div>
+      <div><a class="xref" href="Application.Interfaces.Repositories.IRepository-2.html">IRepository</a>&lt;<a class="xref" href="Domain.Entities.Actividad.html">Actividad</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="Infrastructure.Repositories.BaseRepository-1.html#Infrastructure_Repositories_BaseRepository_1_ApplyOrdening_System_Linq_IQueryable__0__Application_Interfaces_Common_IQueryOptions__0__">BaseRepository&lt;Actividad&gt;.ApplyOrdening(IQueryable&lt;Actividad&gt;, IQueryOptions&lt;Actividad&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Infrastructure.Repositories.BaseRepository-1.html#Infrastructure_Repositories_BaseRepository_1_ApplyPagination_System_Linq_IQueryable__0__Application_Interfaces_Common_IQueryOptions__0__">BaseRepository&lt;Actividad&gt;.ApplyPagination(IQueryable&lt;Actividad&gt;, IQueryOptions&lt;Actividad&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Infrastructure_Repositories_ActividadRepository__ctor_" data-uid="Infrastructure.Repositories.ActividadRepository.#ctor*"></a>
+
+  <h3 id="Infrastructure_Repositories_ActividadRepository__ctor_Infrastructure_Persistence_ApplicationDbContext_" data-uid="Infrastructure.Repositories.ActividadRepository.#ctor(Infrastructure.Persistence.ApplicationDbContext)">
+  ActividadRepository(ApplicationDbContext)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Repositories/ActividadRepository.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActividadRepository(ApplicationDbContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="Infrastructure.Persistence.ApplicationDbContext.html">ApplicationDbContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Infrastructure_Repositories_ActividadRepository_AddAsync_" data-uid="Infrastructure.Repositories.ActividadRepository.AddAsync*"></a>
+
+  <h3 id="Infrastructure_Repositories_ActividadRepository_AddAsync_Domain_Entities_Actividad_" data-uid="Infrastructure.Repositories.ActividadRepository.AddAsync(Domain.Entities.Actividad)">
+  AddAsync(Actividad)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Repositories/ActividadRepository.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; AddAsync(Actividad actividad)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>actividad</code> <a class="xref" href="Domain.Entities.Actividad.html">Actividad</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Repositories_ActividadRepository_GetActividadesByEntidad_" data-uid="Infrastructure.Repositories.ActividadRepository.GetActividadesByEntidad*"></a>
+
+  <h3 id="Infrastructure_Repositories_ActividadRepository_GetActividadesByEntidad_System_Int32_" data-uid="Infrastructure.Repositories.ActividadRepository.GetActividadesByEntidad(System.Int32)">
+  GetActividadesByEntidad(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Repositories/ActividadRepository.cs/#L149"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;Actividad&gt;&gt; GetActividadesByEntidad(int idEntidad)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>idEntidad</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Domain.Entities.Actividad.html">Actividad</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Repositories_ActividadRepository_GetActividadesByTipoActividad_" data-uid="Infrastructure.Repositories.ActividadRepository.GetActividadesByTipoActividad*"></a>
+
+  <h3 id="Infrastructure_Repositories_ActividadRepository_GetActividadesByTipoActividad_System_Guid_" data-uid="Infrastructure.Repositories.ActividadRepository.GetActividadesByTipoActividad(System.Guid)">
+  GetActividadesByTipoActividad(Guid)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Repositories/ActividadRepository.cs/#L159"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;Actividad&gt;&gt; GetActividadesByTipoActividad(Guid idTipoActividad)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>idTipoActividad</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Domain.Entities.Actividad.html">Actividad</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Repositories_ActividadRepository_GetAllAsync_" data-uid="Infrastructure.Repositories.ActividadRepository.GetAllAsync*"></a>
+
+  <h3 id="Infrastructure_Repositories_ActividadRepository_GetAllAsync" data-uid="Infrastructure.Repositories.ActividadRepository.GetAllAsync">
+  GetAllAsync()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Repositories/ActividadRepository.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;Actividad&gt;&gt; GetAllAsync()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Domain.Entities.Actividad.html">Actividad</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Repositories_ActividadRepository_GetByFiltersAsync_" data-uid="Infrastructure.Repositories.ActividadRepository.GetByFiltersAsync*"></a>
+
+  <h3 id="Infrastructure_Repositories_ActividadRepository_GetByFiltersAsync_Application_DTOs_Filters_ActividadFilters_Application_Interfaces_Common_IQueryOptions_Domain_Entities_Actividad__System_Threading_CancellationToken_" data-uid="Infrastructure.Repositories.ActividadRepository.GetByFiltersAsync(Application.DTOs.Filters.ActividadFilters,Application.Interfaces.Common.IQueryOptions{Domain.Entities.Actividad},System.Threading.CancellationToken)">
+  GetByFiltersAsync(ActividadFilters, IQueryOptions&lt;Actividad&gt;?, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Repositories/ActividadRepository.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;PagedResult&lt;Actividad&gt;&gt; GetByFiltersAsync(ActividadFilters filters, IQueryOptions&lt;Actividad&gt;? options = null, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>filters</code> <a class="xref" href="Application.DTOs.Filters.ActividadFilters.html">ActividadFilters</a></dt>
+    <dd></dd>
+    <dt><code>options</code> <a class="xref" href="Application.Interfaces.Common.IQueryOptions-1.html">IQueryOptions</a>&lt;<a class="xref" href="Domain.Entities.Actividad.html">Actividad</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Application.Common.PagedResult-1.html">PagedResult</a>&lt;<a class="xref" href="Domain.Entities.Actividad.html">Actividad</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Repositories_ActividadRepository_GetByIdAsync_" data-uid="Infrastructure.Repositories.ActividadRepository.GetByIdAsync*"></a>
+
+  <h3 id="Infrastructure_Repositories_ActividadRepository_GetByIdAsync_System_Int32_" data-uid="Infrastructure.Repositories.ActividadRepository.GetByIdAsync(System.Int32)">
+  GetByIdAsync(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Repositories/ActividadRepository.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;Actividad?&gt; GetByIdAsync(int id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Domain.Entities.Actividad.html">Actividad</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Repositories_ActividadRepository_GetImagenesByActividad_" data-uid="Infrastructure.Repositories.ActividadRepository.GetImagenesByActividad*"></a>
+
+  <h3 id="Infrastructure_Repositories_ActividadRepository_GetImagenesByActividad_System_Int32_" data-uid="Infrastructure.Repositories.ActividadRepository.GetImagenesByActividad(System.Int32)">
+  GetImagenesByActividad(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Repositories/ActividadRepository.cs/#L169"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;ActividadImagen&gt;&gt; GetImagenesByActividad(int idActividad)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>idActividad</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Domain.Entities.ActividadImagen.html">ActividadImagen</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Repositories_ActividadRepository_Remove_" data-uid="Infrastructure.Repositories.ActividadRepository.Remove*"></a>
+
+  <h3 id="Infrastructure_Repositories_ActividadRepository_Remove_System_Int32_" data-uid="Infrastructure.Repositories.ActividadRepository.Remove(System.Int32)">
+  Remove(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Repositories/ActividadRepository.cs/#L133"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; Remove(int id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Infrastructure_Repositories_ActividadRepository_UpdateAsync_" data-uid="Infrastructure.Repositories.ActividadRepository.UpdateAsync*"></a>
+
+  <h3 id="Infrastructure_Repositories_ActividadRepository_UpdateAsync_Domain_Entities_Actividad_" data-uid="Infrastructure.Repositories.ActividadRepository.UpdateAsync(Domain.Entities.Actividad)">
+  UpdateAsync(Actividad)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Repositories/ActividadRepository.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; UpdateAsync(Actividad actividad)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>actividad</code> <a class="xref" href="Domain.Entities.Actividad.html">Actividad</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/Infrastructure/Repositories/ActividadRepository.cs/#L16" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

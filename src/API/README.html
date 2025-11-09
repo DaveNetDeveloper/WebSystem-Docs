@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>&#127760; API | Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="&#127760; API | Documentation ">
+      
+      
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/API/README.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../logo.svg" alt="Documentation">
+            Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+
+      <div class="content">
+        <div class="actionbar">
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="-api">🌐 API</h1>
+
+<p>Proyecto de backend desarrollado con <strong>ASP.NET Core 8</strong>, que expone una API RESTful y sirve como backend para el frontend del proyecto. Utiliza <strong>PostgreSQL</strong> como base de datos, junto con <strong>Entity Framework Core 7</strong> como ORM. Actualmente, la autorización es manual, con vistas a migrar a <strong>JWT Bearer Authentication</strong> próximamente.</p>
+<hr>
+<h2 id="-estructura-del-proyecto">🗂️ Estructura del proyecto</h2>
+<pre><code>API/
+├── Controllers/          # Controladores que expone los endpoints HTTP
+├── Models/               # Clases de modelo de dominio
+├── Requests/             # DTOs para peticiones (Request Models)
+├── Resources/            # Recursos compartidos (por ejemplo, textos o configuraciones)
+├── Services/             # Lógica de negocio y servicios internos
+├── Utils/                # Utilidades y helpers comunes
+├── ApplicationDbContext.cs  # DbContext de Entity Framework Core
+├── appsettings.json      # Configuración de entorno
+├── Program.cs            # Punto de entrada de la aplicación
+└── .github/workflows/    # Pipeline de integración continua (CI)
+    └── run-tests.yml
+</code></pre>
+<hr>
+<h2 id="-autenticación-y-seguridad">🔐 Autenticación y Seguridad</h2>
+<ul>
+<li>Actualmente los endpoints controlan el acceso de forma <strong>manual</strong>.</li>
+<li>Está planificada la incorporación de <strong>autenticación JWT Bearer</strong> para gestionar usuarios y roles de forma más segura y escalable.</li>
+</ul>
+<hr>
+<h2 id="-base-de-datos">🗃️ Base de datos</h2>
+<ul>
+<li><strong>Sistema gestor</strong>: PostgreSQL</li>
+<li><strong>ORM</strong>: Entity Framework Core 7</li>
+<li><code>ApplicationDbContext</code> define las entidades y relaciones.</li>
+<li>Usa migraciones para gestionar cambios en el esquema de datos.</li>
+</ul>
+<hr>
+<h2 id="-integración-continua-github-actions">🚀 Integración continua (GitHub Actions)</h2>
+<p>Este proyecto incluye una <strong>pipeline CI/CD</strong> definida en <code>.github/workflows/run-tests.yml</code>, que:</p>
+<ol>
+<li>Se ejecuta en cada <code>push</code> o <code>pull_request</code> hacia la rama <code>develop</code>.</li>
+<li>Hace checkout del repositorio actual (API) y del repositorio de tests (<code>DaveNetDeveloper/Test</code>).</li>
+<li>Instala .NET 8 y la CLI de Playwright.</li>
+<li>Ejecuta los tests del proyecto de test externo en modo Release.</li>
+</ol>
+<hr>
+<h2 id="-ejecución-local">▶️ Ejecución local</h2>
+<h3 id="requisitos">Requisitos</h3>
+<ul>
+<li>.NET 8 SDK</li>
+<li>PostgreSQL en ejecución</li>
+<li>Visual Studio 2022+ o VS Code</li>
+</ul>
+<h3 id="comandos-básicos">Comandos básicos</h3>
+<pre><code class="lang-bash">dotnet restore
+dotnet build
+dotnet ef database update  # Aplica migraciones
+dotnet run
+</code></pre>
+<hr>
+<h2 id="-paquetes-nuget-utilizados-principales">📦 Paquetes NuGet utilizados (principales)</h2>
+<ul>
+<li><code>Microsoft.EntityFrameworkCore</code></li>
+<li><code>Microsoft.EntityFrameworkCore.Design</code></li>
+<li><code>Npgsql.EntityFrameworkCore.PostgreSQL</code></li>
+<li><code>Microsoft.AspNetCore.Authentication.JwtBearer</code> (planificado)</li>
+</ul>
+<hr>
+<h2 id="-notas-finales">📌 Notas finales</h2>
+<ul>
+<li>El proyecto de <strong>Tests</strong> depende de esta API.</li>
+<li>Las llamadas desde el <strong>frontend</strong> se hacen directamente mediante JavaScript (fetch/AJAX).</li>
+<li>La autenticación y gestión de usuarios será mejorada en próximas iteraciones.</li>
+</ul>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DaveNetDeveloper/WebSystem/blob/develop/src/API/README.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

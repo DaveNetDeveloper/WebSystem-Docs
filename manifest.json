@@ -1,0 +1,4048 @@
+{
+  "source_base_path": "C:/Users/David/Desktop/WebSystem",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/API.Controllers.AccionesController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/API.Controllers.AccionesController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/API.Controllers.ActividadReservasController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/API.Controllers.ActividadReservasController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/API.Controllers.ActividadesController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/API.Controllers.ActividadesController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/API.Controllers.AuthController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/API.Controllers.AuthController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/API.Controllers.BaseController-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/API.Controllers.BaseController-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/API.Controllers.CampanaExecutionsController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/API.Controllers.CampanaExecutionsController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/API.Controllers.CampanasController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/API.Controllers.CampanasController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/API.Controllers.CategoriasController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/API.Controllers.CategoriasController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/API.Controllers.ConsultasController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/API.Controllers.ConsultasController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/API.Controllers.CorreoController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/API.Controllers.CorreoController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/API.Controllers.DataQueryController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/API.Controllers.DataQueryController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/API.Controllers.EmailTokensController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/API.Controllers.EmailTokensController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/API.Controllers.EntidadesController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/API.Controllers.EntidadesController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/API.Controllers.FAQSController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/API.Controllers.FAQSController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/API.Controllers.InAppNotificationController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/API.Controllers.InAppNotificationController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/API.Controllers.LoginsController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/API.Controllers.LoginsController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/API.Controllers.MotivosConsultaController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/API.Controllers.MotivosConsultaController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/API.Controllers.NotificationsController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/API.Controllers.NotificationsController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/API.Controllers.ProductosController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/API.Controllers.ProductosController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/API.Controllers.QRsController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/API.Controllers.QRsController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/API.Controllers.RecompensasController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/API.Controllers.RecompensasController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/API.Controllers.RolesController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/API.Controllers.RolesController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/API.Controllers.SegmentosController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/API.Controllers.SegmentosController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/API.Controllers.SmsController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/API.Controllers.SmsController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/API.Controllers.SmsNotificationController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/API.Controllers.SmsNotificationController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/API.Controllers.TestimoniosController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/API.Controllers.TestimoniosController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/API.Controllers.TipoActividadesController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/API.Controllers.TipoActividadesController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/API.Controllers.TipoCampanasController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/API.Controllers.TipoCampanasController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/API.Controllers.TipoEntidadesController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/API.Controllers.TipoEntidadesController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/API.Controllers.TipoEnvioCorreosController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/API.Controllers.TipoEnvioCorreosController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/API.Controllers.TipoRecompensasController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/API.Controllers.TipoRecompensasController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/API.Controllers.TipoSegmentosController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/API.Controllers.TipoSegmentosController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/API.Controllers.TipoTransaccionController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/API.Controllers.TipoTransaccionController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/API.Controllers.TransaccionesController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/API.Controllers.TransaccionesController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/API.Controllers.UsuariosController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/API.Controllers.UsuariosController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/API.Controllers.WorkerServiceExecutionController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/API.Controllers.WorkerServiceExecutionController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/API.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/API.Controllers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/API.MessageProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/API.MessageProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/API.Middlewares.ExceptionMiddleware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/API.Middlewares.ExceptionMiddleware.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/API.Middlewares.FakeJwtBearerHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/API.Middlewares.FakeJwtBearerHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/API.Middlewares.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/API.Middlewares.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/API.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/API.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Common.Environments.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Common.Environments.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Common.PagedResult-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Common.PagedResult-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Common.QueryOptions-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Common.QueryOptions-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Common.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Common.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.DataQuery.vActividadUsuariosDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.DataQuery.vActividadUsuariosDTO.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.DataQuery.vAllCampanasDataDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.DataQuery.vAllCampanasDataDTO.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.DataQuery.vAllUserDataDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.DataQuery.vAllUserDataDTO.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.DataQuery.vAsistenciaActividadesDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.DataQuery.vAsistenciaActividadesDTO.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.DataQuery.vCampanasUsuariosDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.DataQuery.vCampanasUsuariosDTO.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.DataQuery.vRolesUsuariosDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.DataQuery.vRolesUsuariosDTO.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.DataQuery.vTotalErroresDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.DataQuery.vTotalErroresDTO.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.DataQuery.vTotalUltimasTransaccionesDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.DataQuery.vTotalUltimasTransaccionesDTO.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.DataQuery.vUsuariosDispositivosDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.DataQuery.vUsuariosDispositivosDTO.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.DataQuery.vUsuariosIdiomasDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.DataQuery.vUsuariosIdiomasDTO.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.DataQuery.vUsuariosInactivosDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.DataQuery.vUsuariosInactivosDTO.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.DataQuery.vVisitasTipoDispositivoDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.DataQuery.vVisitasTipoDispositivoDTO.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.DataQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.DataQuery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.Filters.AccionFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.Filters.AccionFilters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.Filters.ActividadFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.Filters.ActividadFilters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.Filters.ActividadReservaFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.Filters.ActividadReservaFilters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.Filters.CampanaExecutionFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.Filters.CampanaExecutionFilters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.Filters.CampanaFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.Filters.CampanaFilters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.Filters.CategoriaFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.Filters.CategoriaFilters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.Filters.ConsultaFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.Filters.ConsultaFilters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.Filters.DireccionFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.Filters.DireccionFilters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.Filters.EntidadFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.Filters.EntidadFilters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.Filters.FAQFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.Filters.FAQFilters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.Filters.InAppNotificationFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.Filters.InAppNotificationFilters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.Filters.LogFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.Filters.LogFilters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.Filters.LoginFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.Filters.LoginFilters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.Filters.MotivoConsultaFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.Filters.MotivoConsultaFilters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.Filters.ProductoFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.Filters.ProductoFilters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.Filters.QRFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.Filters.QRFilters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.Filters.RecompensaFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.Filters.RecompensaFilters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.Filters.RolFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.Filters.RolFilters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.Filters.SegmentoFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.Filters.SegmentoFilters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.Filters.SmsNotificationFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.Filters.SmsNotificationFilters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.Filters.TestimonioFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.Filters.TestimonioFilters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.Filters.TipoActividadFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.Filters.TipoActividadFilters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.Filters.TipoCampanaFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.Filters.TipoCampanaFilters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.Filters.TipoEntidadFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.Filters.TipoEntidadFilters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.Filters.TipoEnvioCorreoFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.Filters.TipoEnvioCorreoFilters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.Filters.TipoRecompensaFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.Filters.TipoRecompensaFilters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.Filters.TipoSegmentoFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.Filters.TipoSegmentoFilters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.Filters.TipoTransaccionFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.Filters.TipoTransaccionFilters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.Filters.TransaccionFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.Filters.TransaccionFilters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.Filters.UsuarioFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.Filters.UsuarioFilters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.Filters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.Filters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.Requests.NotificationRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.Requests.NotificationRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.Requests.NotificationTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.Requests.NotificationTypes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.Requests.SmsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.Requests.SmsRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.Requests.UsuarioRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.Requests.UsuarioRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.Requests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.Requests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.Responses.CategoriaDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.Responses.CategoriaDTO.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.Responses.ImagenesActividadDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.Responses.ImagenesActividadDTO.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.Responses.ImagenesProductoDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.Responses.ImagenesProductoDTO.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.Responses.ReservaActividadDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.Responses.ReservaActividadDTO.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.Responses.UsuarioDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.Responses.UsuarioDTO.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DTOs.Responses.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DTOs.Responses.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DependencyInjection.DependencyInjection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DependencyInjection.DependencyInjection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.DependencyInjection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.DependencyInjection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Common.IQueryOptions-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Common.IQueryOptions-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Common.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Common.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Controllers.IController-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Controllers.IController-3.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Controllers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.DTOs.DataQuery.IView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.DTOs.DataQuery.IView.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.DTOs.DataQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.DTOs.DataQuery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.DTOs.Filters.IFilters-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.DTOs.Filters.IFilters-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.DTOs.Filters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.DTOs.Filters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Messaging.IMessageBusService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Messaging.IMessageBusService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Messaging.IMessageConsumer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Messaging.IMessageConsumer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Messaging.INotificationProcessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Messaging.INotificationProcessor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Messaging.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Messaging.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Repositories.IAccionRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Repositories.IAccionRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Repositories.IActividadRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Repositories.IActividadRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Repositories.IActividadReservaRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Repositories.IActividadReservaRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Repositories.ICampanaAccionesRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Repositories.ICampanaAccionesRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Repositories.ICampanaExecutionRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Repositories.ICampanaExecutionRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Repositories.ICampanaRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Repositories.ICampanaRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Repositories.ICampanaSegmentosRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Repositories.ICampanaSegmentosRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Repositories.ICategoriaRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Repositories.ICategoriaRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Repositories.IConsultaRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Repositories.IConsultaRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Repositories.IDataQueryRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Repositories.IDataQueryRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Repositories.IEmailTokenRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Repositories.IEmailTokenRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Repositories.IEntidadRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Repositories.IEntidadRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Repositories.IFAQRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Repositories.IFAQRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Repositories.IInAppNotificationRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Repositories.IInAppNotificationRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Repositories.ILogRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Repositories.ILogRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Repositories.ILoginRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Repositories.ILoginRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Repositories.IMotivoConsultaRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Repositories.IMotivoConsultaRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Repositories.IProductoRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Repositories.IProductoRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Repositories.IQRRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Repositories.IQRRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Repositories.IReadRepository-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Repositories.IReadRepository-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Repositories.IRecompensaRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Repositories.IRecompensaRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Repositories.IRepository-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Repositories.IRepository-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Repositories.IRolRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Repositories.IRolRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Repositories.ISegmentoRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Repositories.ISegmentoRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Repositories.ISmsNotificationRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Repositories.ISmsNotificationRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Repositories.ITestimonioRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Repositories.ITestimonioRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Repositories.ITipoActividadRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Repositories.ITipoActividadRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Repositories.ITipoCampanaRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Repositories.ITipoCampanaRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Repositories.ITipoEntidadRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Repositories.ITipoEntidadRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Repositories.ITipoEnvioCorreoRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Repositories.ITipoEnvioCorreoRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Repositories.ITipoRecompensasRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Repositories.ITipoRecompensasRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Repositories.ITipoSegmentoRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Repositories.ITipoSegmentoRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Repositories.ITipoTransaccionRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Repositories.ITipoTransaccionRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Repositories.ITokenRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Repositories.ITokenRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Repositories.ITransaccionRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Repositories.ITransaccionRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Repositories.IUnitOfWork.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Repositories.IUnitOfWork.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Repositories.IUsuarioRecompensasRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Repositories.IUsuarioRecompensasRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Repositories.IUsuarioRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Repositories.IUsuarioRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Repositories.IUsuarioSegmentosRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Repositories.IUsuarioSegmentosRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Repositories.IWorkerServiceExecutionRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Repositories.IWorkerServiceExecutionRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Repositories.IWriteRepository-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Repositories.IWriteRepository-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Repositories.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Repositories.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Services.IAccionService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Services.IAccionService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Services.IActividadReservaService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Services.IActividadReservaService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Services.IActividadService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Services.IActividadService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Services.IAuthService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Services.IAuthService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Services.ICampanaExecutionService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Services.ICampanaExecutionService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Services.ICampanaService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Services.ICampanaService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Services.ICategoriaService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Services.ICategoriaService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Services.IConsultaService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Services.IConsultaService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Services.ICorreoService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Services.ICorreoService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Services.IDataQueryService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Services.IDataQueryService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Services.IEmailTokenService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Services.IEmailTokenService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Services.IEntidadService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Services.IEntidadService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Services.IExcelExporter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Services.IExcelExporter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Services.IExportService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Services.IExportService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Services.IExporter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Services.IExporter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Services.IFAQService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Services.IFAQService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Services.IInAppNotificationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Services.IInAppNotificationService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Services.ILogService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Services.ILogService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Services.ILoginService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Services.ILoginService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Services.IMotivoConsultaService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Services.IMotivoConsultaService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Services.IProductoService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Services.IProductoService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Services.IQRService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Services.IQRService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Services.IRecompensaService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Services.IRecompensaService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Services.IRolService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Services.IRolService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Services.ISegmentoService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Services.ISegmentoService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Services.IService-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Services.IService-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Services.ISmsNotificationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Services.ISmsNotificationService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Services.ISmsService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Services.ISmsService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Services.ITestimonioService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Services.ITestimonioService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Services.ITipoActividadService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Services.ITipoActividadService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Services.ITipoCampanaService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Services.ITipoCampanaService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Services.ITipoEntidadService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Services.ITipoEntidadService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Services.ITipoEnvioCorreoService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Services.ITipoEnvioCorreoService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Services.ITipoSegmentoService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Services.ITipoSegmentoService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Services.ITipoTransaccionService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Services.ITipoTransaccionService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Services.ITokenService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Services.ITokenService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Services.ITransaccionService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Services.ITransaccionService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Services.IUsuarioService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Services.IUsuarioService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Services.IWorkerServiceExecutionService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Services.IWorkerServiceExecutionService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Interfaces.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Interfaces.Services.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Messaging.Handler.NotificationRequestHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Messaging.Handler.NotificationRequestHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Messaging.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Messaging.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Messaging.NotificationProcessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Messaging.NotificationProcessor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Messaging.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Messaging.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Services.AccionService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Services.AccionService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Services.ActividadReservaService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Services.ActividadReservaService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Services.ActividadService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Services.ActividadService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Services.AuthService.AuthenticationSchemes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Services.AuthService.AuthenticationSchemes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Services.AuthService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Services.AuthService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Services.CampanaExecutionService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Services.CampanaExecutionService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Services.CampanaService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Services.CampanaService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Services.CategoriaService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Services.CategoriaService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Services.ConsultaService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Services.ConsultaService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Services.CorreoService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Services.CorreoService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Services.DataQueryService.DataQueryType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Services.DataQueryService.DataQueryType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Services.DataQueryService.ExportFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Services.DataQueryService.ExportFormat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Services.DataQueryService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Services.DataQueryService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Services.EmailTokenService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Services.EmailTokenService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Services.EntidadService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Services.EntidadService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Services.ExcelExporter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Services.ExcelExporter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Services.FAQService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Services.FAQService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Services.InAppNotificationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Services.InAppNotificationService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Services.LogService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Services.LogService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Services.LoginService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Services.LoginService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Services.MotivoConsultaService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Services.MotivoConsultaService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Services.PdfExporter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Services.PdfExporter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Services.ProductoService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Services.ProductoService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Services.QRService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Services.QRService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Services.RecompensaService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Services.RecompensaService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Services.RolService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Services.RolService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Services.SegmentoService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Services.SegmentoService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Services.SmsNotificationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Services.SmsNotificationService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Services.TestimonioService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Services.TestimonioService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Services.TipoActividadService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Services.TipoActividadService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Services.TipoCampanaService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Services.TipoCampanaService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Services.TipoEntidadService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Services.TipoEntidadService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Services.TipoEnvioCorreoService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Services.TipoEnvioCorreoService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Services.TipoSegmentoService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Services.TipoSegmentoService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Services.TipoTransaccionService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Services.TipoTransaccionService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Services.TokenService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Services.TokenService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Services.TransaccionService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Services.TransaccionService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Services.TwilioSmsService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Services.TwilioSmsService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Services.UsuarioService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Services.UsuarioService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Services.WorkerServiceExecutionService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Services.WorkerServiceExecutionService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Application.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Application.Services.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.DataQuery.v_ActividadUsuarios.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.DataQuery.v_ActividadUsuarios.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.DataQuery.v_AllCampanasData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.DataQuery.v_AllCampanasData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.DataQuery.v_AllUserData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.DataQuery.v_AllUserData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.DataQuery.v_AsistenciaActividades.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.DataQuery.v_AsistenciaActividades.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.DataQuery.v_CampanasUsuarios.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.DataQuery.v_CampanasUsuarios.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.DataQuery.v_RolesUsuarios.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.DataQuery.v_RolesUsuarios.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.DataQuery.v_TotalErrores.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.DataQuery.v_TotalErrores.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.DataQuery.v_TotalUltimasTransacciones.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.DataQuery.v_TotalUltimasTransacciones.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.DataQuery.v_UsuariosDispositivos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.DataQuery.v_UsuariosDispositivos.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.DataQuery.v_UsuariosIdiomas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.DataQuery.v_UsuariosIdiomas.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.DataQuery.v_UsuariosInactivos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.DataQuery.v_UsuariosInactivos.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.DataQuery.v_VisitasTipoDispositivo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.DataQuery.v_VisitasTipoDispositivo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.DataQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.DataQuery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.Accion.AccionDetalle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.Accion.AccionDetalle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.Accion.NombreAccion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.Accion.NombreAccion.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.Accion.TipoAccion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.Accion.TipoAccion.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.Accion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.Accion.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.Actividad.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.Actividad.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.ActividadImagen.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.ActividadImagen.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.ActividadReserva.EstadoReserva.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.ActividadReserva.EstadoReserva.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.ActividadReserva.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.ActividadReserva.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.AppConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.AppConfiguration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.AuthUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.AuthUser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.Campana.TipoFrecuencia.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.Campana.TipoFrecuencia.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.Campana.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.Campana.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.CampanaAcciones.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.CampanaAcciones.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.CampanaExecution.EstadoEjecucion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.CampanaExecution.EstadoEjecucion.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.CampanaExecution.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.CampanaExecution.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.CampanaSegmentos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.CampanaSegmentos.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.Categoria.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.Categoria.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.Consulta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.Consulta.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.Correo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.Correo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.Direccion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.Direccion.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.EmailToken.EmailTokenActions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.EmailToken.EmailTokenActions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.EmailToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.EmailToken.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.Entidad.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.Entidad.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.EntidadCategoria.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.EntidadCategoria.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.ExportConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.ExportConfiguration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.FAQ.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.FAQ.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.FicheroAdjunto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.FicheroAdjunto.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.InAppNotification.TipoEnvioInApp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.InAppNotification.TipoEnvioInApp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.InAppNotification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.InAppNotification.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.Log.Proceso.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.Log.Proceso.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.Log.TipoLog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.Log.TipoLog.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.Log.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.Log.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.Login.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.Login.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.LoginDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.LoginDto.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.MQServiceConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.MQServiceConfiguration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.MailConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.MailConfiguration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.MotivoConsulta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.MotivoConsulta.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.Producto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.Producto.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.ProductoImagen.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.ProductoImagen.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.QR.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.QR.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.Recompensa.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.Recompensa.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.ReglaSegmento.OperadorReglaSegmentacion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.ReglaSegmento.OperadorReglaSegmentacion.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.ReglaSegmento.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.ReglaSegmento.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.Rol.Roles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.Rol.Roles.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.Rol.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.Rol.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.Segmento.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.Segmento.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.SmsConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.SmsConfiguration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.SmsDTO.TipoEnvioSms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.SmsDTO.TipoEnvioSms.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.SmsDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.SmsDTO.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.SmsNotification.TipoEnvioSms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.SmsNotification.TipoEnvioSms.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.SmsNotification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.SmsNotification.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.Testimonio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.Testimonio.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.TipoActividad.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.TipoActividad.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.TipoCampana.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.TipoCampana.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.TipoEntidad.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.TipoEntidad.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.TipoEnvioCorreo.TipoEnvio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.TipoEnvioCorreo.TipoEnvio.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.TipoEnvioCorreo.TipoEnvioCorreos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.TipoEnvioCorreo.TipoEnvioCorreos.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.TipoEnvioCorreo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.TipoEnvioCorreo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.TipoRecompensa.TiposRecompensa.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.TipoRecompensa.TiposRecompensa.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.TipoRecompensa.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.TipoRecompensa.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.TipoSegmento.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.TipoSegmento.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.TipoTransaccion.TiposTransaccion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.TipoTransaccion.TiposTransaccion.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.TipoTransaccion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.TipoTransaccion.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.Transaccion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.Transaccion.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.Usuario.Genero.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.Usuario.Genero.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.Usuario.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.Usuario.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.UsuarioDireccion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.UsuarioDireccion.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.UsuarioEntidad.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.UsuarioEntidad.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.UsuarioRecompensa.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.UsuarioRecompensa.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.UsuarioRol.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.UsuarioRol.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.UsuarioSegmentos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.UsuarioSegmentos.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.WorkerServiceExecution.WorkerServiceResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.WorkerServiceExecution.WorkerServiceResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.WorkerServiceExecution.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.WorkerServiceExecution.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Domain.Entities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Domain.Entities.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.DependencyInjection.DependencyInjection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.DependencyInjection.DependencyInjection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.DependencyInjection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.DependencyInjection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Extensions.CustomVersionTableMetaData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Extensions.CustomVersionTableMetaData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Extensions.MigrationExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Extensions.MigrationExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Extensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Messaging.RabbitMqConsumer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Messaging.RabbitMqConsumer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Messaging.RabbitMqService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Messaging.RabbitMqService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Messaging.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Messaging.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Migrations.Migration_202509252030_AddTestTable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Migrations.Migration_202509252030_AddTestTable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Migrations.Migration_202509252200_DropTestTable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Migrations.Migration_202509252200_DropTestTable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Migrations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Migrations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Persistence.ApplicationDbContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Persistence.ApplicationDbContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Persistence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Persistence.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Repositories.AccionRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Repositories.AccionRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Repositories.ActividadRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Repositories.ActividadRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Repositories.ActividadReservaRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Repositories.ActividadReservaRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Repositories.BaseRepository-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Repositories.BaseRepository-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Repositories.CampanaAccionesRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Repositories.CampanaAccionesRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Repositories.CampanaExecutionRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Repositories.CampanaExecutionRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Repositories.CampanaRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Repositories.CampanaRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Repositories.CampanaSegmentosRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Repositories.CampanaSegmentosRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Repositories.CategoriaRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Repositories.CategoriaRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Repositories.ConsultaRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Repositories.ConsultaRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Repositories.DataQueryRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Repositories.DataQueryRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Repositories.EmailTokenRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Repositories.EmailTokenRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Repositories.EntidadRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Repositories.EntidadRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Repositories.FAQRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Repositories.FAQRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Repositories.InAppNotificationRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Repositories.InAppNotificationRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Repositories.LogRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Repositories.LogRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Repositories.LoginRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Repositories.LoginRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Repositories.MotivoConsultaRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Repositories.MotivoConsultaRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Repositories.ProductoRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Repositories.ProductoRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Repositories.QRRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Repositories.QRRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Repositories.RecompensaRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Repositories.RecompensaRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Repositories.RolRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Repositories.RolRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Repositories.SegmentoRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Repositories.SegmentoRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Repositories.SmsNotificationRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Repositories.SmsNotificationRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Repositories.TestimonioRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Repositories.TestimonioRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Repositories.TipoActividadRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Repositories.TipoActividadRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Repositories.TipoCampanaRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Repositories.TipoCampanaRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Repositories.TipoEntidadRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Repositories.TipoEntidadRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Repositories.TipoEnvioCorreoRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Repositories.TipoEnvioCorreoRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Repositories.TipoRecompensasRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Repositories.TipoRecompensasRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Repositories.TipoSegmentoRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Repositories.TipoSegmentoRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Repositories.TipoTransaccionRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Repositories.TipoTransaccionRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Repositories.TokenRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Repositories.TokenRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Repositories.TransaccionRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Repositories.TransaccionRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Repositories.UnitOfWork.UnitOfWork.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Repositories.UnitOfWork.UnitOfWork.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Repositories.UnitOfWork.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Repositories.UnitOfWork.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Repositories.UsuarioRecompensasRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Repositories.UsuarioRecompensasRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Repositories.UsuarioRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Repositories.UsuarioRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Repositories.UsuarioSegmentosRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Repositories.UsuarioSegmentosRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Repositories.WorkerServiceExecutionRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Repositories.WorkerServiceExecutionRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Infrastructure.Repositories.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Infrastructure.Repositories.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Utilities.CodesHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Utilities.CodesHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Utilities.EncodeDecodeHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Utilities.EncodeDecodeHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Utilities.ExporterHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Utilities.ExporterHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Utilities.FormatValidationHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Utilities.FormatValidationHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Utilities.JsonHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Utilities.JsonHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Utilities.PasswordHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Utilities.PasswordHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Utilities.StringExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Utilities.StringExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Utilities.TimeHelper.TipoIntervalo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Utilities.TimeHelper.TipoIntervalo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Utilities.TimeHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Utilities.TimeHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "project documentation/Utilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/Utilities.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "project documentation/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "project documentation/toc.html"
+        },
+        ".json": {
+          "relative_path": "project documentation/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "src/API/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "src/API/README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "src/Web/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "src/Web/README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "tests/Test.UI/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "tests/Test.UI/README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
